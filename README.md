@@ -16,21 +16,19 @@ Bed leveling and distance from the nozzle to the bed are probably the most impor
 
 Once my printer was built. I had the printer Auto Home from the prepare setting in the LCD. This puts the nozzle outside the printing area. Then I turned off the printer and moved the nozzle to front left corner. I knew that my z-stop switch was install correctly because there was enough distance between the nozzle and the printing bed. Had I forced the nozzle to this position without a proper z-stop positon, I could have scratched the printing surface and the bed. Fortunately, this did not happen. I then proceeed to level the back right corner, the to right corner, and the back left corners.
 
-I originially used a business card to level the nozzle to the printing surface, but after a couple of prints, this was not working. I contacted a friend and he told me to use instead a non-folded sheet of paper to try to achieve a .1mm thickness. This works by putting the paper under the nozzle and bringing to a position where there's drag between the paper, nozzle and printing surface.
+I originially used a business card to level the nozzle to the printing surface, but after a couple of prints, this was not working. I contacted a friend and he told me to use instead a non-folded sheet of paper to try to achieve a .1mm thickness. This works by putting the paper under the nozzle and bringing to a position where there's drag between the paper, nozzle and printing surface. After I leveled the bud using the paper, I was succesful in printing my first few prints. 
 
-After I level using the paper, I was succesful in printing my first few prints. Leveling took a long time for me, and every time I printed something it seemed that I needed to readjust the leveling. 
-
-I searched online for a faster way to do the leveling and fount the following video:
+Leveling took a long time for me, and every time I printed something it seemed that I needed to readjust the leveling. I searched online for a faster way to do the leveling and fount the following video:
 
 https://www.youtube.com/watch?v=_EfWVUJjBdA
 
-The video also has a link to a Thingverse link for the gcode files he mentions in the video:
+The video also has a link to a Thingverse link for the gcode files the presenter mentions in the video:
 
 https://www.thingiverse.com/thing:3235018
 
 By using this gcode file, I have been able to set my bed leveling consistently and faster.
 
-## Printing temperature
+## Printing temperature (PLA)
 
 I have printed PLA both at 210C nozzle temperature and 65C bed temperature and at 200C nozzle temperature and 60C bed temperature. I had good results with both. Lately, I have been keeping the latter setting as it is the one that comes with Cura by default.
 
