@@ -34,6 +34,14 @@ By using this gcode file, I have been able to set my bed leveling consistently a
 
 I have printed PLA both at 210C nozzle temperature and 65C bed temperature and at 200C nozzle temperature and 60C bed temperature. I had good results with both. Lately, I have been keeping the latter setting as it is the one that comes with Cura by default.
 
+## My first and the benchy test
+
+My first successful print was a 20x20mm square.
+
+[Inser Image]
+
+This is what my benchy looks like.
+
 ## Additional parts
 
 Once I overcame the leveling and nozzle distance issues and after several failed and then successfult prints, I then decided the print the following parts to enhace my printer:
@@ -63,9 +71,15 @@ https://www.thingiverse.com/thing:2920060
 
 I finally settle for using Cura.
 
+
 ## Design software
 
 I am still using tinkercad to do my design. I also have started looking a FreeCad.
+
+## Printing duplicates
+
+Sometimes you may want to print several duplicates of your parts. Rather than printing one by one, I either import the STL file into tinkercad and created duplicates or import the same STL file into Cura several times. I like the second approach, as I can go into inmidiatly go into slicking, Additing the files via Tinkercad though, gives a lot of flexibility.
+
 
 ## Other Issues
 
