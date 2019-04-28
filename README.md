@@ -6,7 +6,7 @@ I recently bought an Ender 3 (not the pro). I wanted to share my experiences thu
 
 I mostly followed this guide to build my printer.
 
-I particularly like the guide for aligning the  side pieces.
+https://www.youtube.com/watch?v=me8Qrwh907Q
 
 ## Leveing and distance from the nozzle to the bed.
 
