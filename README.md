@@ -34,7 +34,7 @@ I have printed PLA both at 210C nozzle temperature and 65C bed temperature and a
 
 ## Additional parts
 
-Once I overcame the leveling and nozzle distance issues and after several failed and then successfult prints, I then decided the print the following essential parts (in my humble opition).
+Once I overcame the leveling and nozzle distance issues and after several failed and then successfult prints, I then decided the print the following parts to enhace my printer:
 
 ### Fan cover
 
