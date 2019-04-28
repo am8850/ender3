@@ -40,7 +40,7 @@ Once I overcame the leveling and nozzle distance issues and after several failed
 
 ### Fan cover
 
-I liked this fan cover because it has reminder arrows of how to move the bed up (clockwise) and down (anti clockwise).
+On the Ender 3 (not the pro), this prevents from particles falling into the cooling fan of the motherboard. I chose this fan cover because it has reminder arrows of how to move the bed up (clockwise) and down (anti clockwise).
 
 https://www.thingiverse.com/thing:3505548
 
