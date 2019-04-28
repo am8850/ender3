@@ -34,13 +34,23 @@ By using this gcode file, I have been able to set my bed leveling consistently a
 
 I have printed PLA both at 210C nozzle temperature and 65C bed temperature and at 200C nozzle temperature and 60C bed temperature. I had good results with both. Lately, I have been keeping the latter setting as it is the one that comes with Cura by default.
 
+| |  |  |
+| --- | --- | --- |
+| PLA setting 1 | Extruder | 200C
+|     | Bed | 60C
+| PLA setting 2 | Extruder | 210C
+|     | Bed | 65C
+
+
 ## My first and the benchy test
 
-My first successful print was a 20x20mm square.
+My first successful print was a 20x20mm square:
 
-[Inser Image]
+[Insert image]
 
-This is what my benchy looks like.
+This is what my benchy looks like:
+
+[Insert image|
 
 ## Additional parts
 
