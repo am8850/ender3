@@ -34,11 +34,11 @@ By using this gcode file, I have been able to set my bed leveling consistently a
 
 I have printed PLA both at 210C nozzle temperature and 65C bed temperature and at 200C nozzle temperature and 60C bed temperature. I had good results with both. Lately, I have been keeping the latter setting as it is the one that comes with Cura by default.
 
-### Additional parts
+## Additional parts
 
 After the printer was build I printed the following parts:
 
-#### Fan cover
+### Fan cover
 
 I liked this fan cover because it has reminder arrows of how to move the bed up (clockwise) and down (anti clockwise).
 
@@ -48,14 +48,14 @@ https://www.thingiverse.com/thing:3505548
 
 https://www.thingiverse.com/thing:2917932
 
-#### LCD back cover
+### LCD back cover
 
 
-#### LCD cable clips
+### LCD cable clips
 
 https://www.thingiverse.com/thing:3089470
 
-#### Drag Chain
+### Drag Chain
 
 https://www.thingiverse.com/thing:2920060
 
