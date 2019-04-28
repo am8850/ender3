@@ -10,13 +10,11 @@ https://www.youtube.com/watch?v=me8Qrwh907Q
 
 ## Leveing and distance from the nozzle to the bed.
 
-Bed leveling and distance from the nozzle to the bed are probably the most important aspects of 3D printing. 
-
-### Leveling
-
 > **Note:** Do not attempt to print until the bed is level and you have set the proper height between the nozzle and the printing surface. Otherwise, you could scratch and ruing the printing surface.
 
-Once my printer was built. I used the command to level the printer. This puts the nozzle outside the printing area. Then I turned off the printer and moved the nozzle to front left corner. I knew that my z-stop switch was install correctly because there was enough distance between the nozzle and the printing bed. Had I forced the nozzle to this position without a proper z-stop positon, I could have scratched the printing surface and the bed. Fortunately, this did not happen. I then proceeed to level the back right corner, the to right corner, and the back left corners.
+Bed leveling and distance from the nozzle to the bed are probably the most important aspects of 3D printing. 
+
+Once my printer was built. I had the printer Auto Home from the prepare setting in the LCD. This puts the nozzle outside the printing area. Then I turned off the printer and moved the nozzle to front left corner. I knew that my z-stop switch was install correctly because there was enough distance between the nozzle and the printing bed. Had I forced the nozzle to this position without a proper z-stop positon, I could have scratched the printing surface and the bed. Fortunately, this did not happen. I then proceeed to level the back right corner, the to right corner, and the back left corners.
 
 I originially used a business card to level the nozzle to the printing surface, but after a couple of prints, this was not working. I contacted a friend and he told me to use instead a non-folded sheet of paper to try to achieve a .1mm thickness. This works by putting the paper under the nozzle and bringing to a position where there's drag between the paper, nozzle and printing surface.
 
