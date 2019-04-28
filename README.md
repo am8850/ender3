@@ -30,7 +30,7 @@ The video also has a link to a Thingverse link for the gcode files he mentions i
 
 https://www.thingiverse.com/thing:3235018
 
-Using this gcode file, I have been able to set my bed leveling consistently at lot faster.
+By using this gcode file, I have been able to set my bed leveling consistently and faster.
 
 ## Printing temperature
 
@@ -42,11 +42,24 @@ After the printer was build I printed the following parts:
 
 #### Fan cover
 
+I liked this fan cover because it has reminder arrows of how to move the bed up (clockwise) and down (anti clockwise).
+
+https://www.thingiverse.com/thing:3505548
+
+### Filament guide
+
+https://www.thingiverse.com/thing:2917932
+
 #### LCD back cover
+
 
 #### LCD cable clips
 
+https://www.thingiverse.com/thing:3089470
+
 #### Drag Chain
+
+https://www.thingiverse.com/thing:2920060
 
 ## Slicing software
 
