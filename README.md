@@ -8,8 +8,6 @@ I mostly followed this guide to build my printer.
 
 https://www.youtube.com/watch?v=me8Qrwh907Q
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/me8Qrwh907Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ## Leveing and distance from the nozzle to the bed.
 
 Bed leveling and distance from the nozzle to the bed are probably the most important aspects of 3D printing. 
