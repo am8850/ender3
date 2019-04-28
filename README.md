@@ -74,4 +74,4 @@ I am still using tinkercad to do my design. I also have started looking a FreeCa
 
 ### Stringing
 
-Stringing occurs when the nozzle moves from one location to another rapidly, particularly after making circle, leaving in its path a small amount of filament that looks like a string. This can be prevented using the Combing Mode setting in Cura.
+Stringing occurs when the nozzle moves from one location to another rapidly, particularly after making circle, leaving in its path a small amount of filament that looks like a string. This can be prevented using the Combing Mode in Travel setting in Cura.
