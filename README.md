@@ -4,35 +4,35 @@ I recently bought an Ender 3 (not the pro). I wanted to share my experiences thu
 
 ## Build
 
-I mostly followed the following guide to build my printer:
+I mostly followed this guide to build my printer:
 
 https://www.youtube.com/watch?v=me8Qrwh907Q
 
-I think the author makes very good recommendations to aligb printer. I did not change all the parts he recommended. So far my printer has been working correctly, but I do plan to upgrade the parts in the near future.
+I think the author makes very good recommendations to align printer. I did not change all the parts as he recommended. So far, my printer has been working correctly, but I do plan to add the recommended parts in the near future.
 
-## Leveing and distance from the nozzle to the bed.
+## Leveling and distance from the nozzle to the bed.
 
-> **Note:** Do not attempt to print until the bed is level and you have set the proper height between the nozzle and the printing surface. Otherwise, you could scratch and ruing the printing surface.
+> **Note:** Do not attempt to print until the bed is leveled and you have set the proper height between the nozzle and the printing surface. Otherwise, you could scratch and ruing the printing surface.
 
-Bed leveling and distance from the nozzle to the bed are probably the most important aspects of 3D printing. 
+Proper bed leveling, distance from the nozzle to the bed (particularly the first layer), and proper material flow (by adjusting to the proper temperature) are probable the two most important aspects of 3D printing. 
 
-Once my printer was built. I had the printer Auto Home from the prepare setting in the LCD. This puts the nozzle outside the printing area. Then I turned off the printer and moved the nozzle to front left corner. I knew that my z-stop switch was install correctly because there was enough distance between the nozzle and the printing bed. Had I forced the nozzle to this position without a proper z-stop positon, I could have scratched the printing surface and the bed. Fortunately, this did not happen. I then proceeed to level the back right corner, the to right corner, and the back left corners.
+Once my printer was built, I had the printer Auto Home from the prepare setting in the LCD. This puts the nozzle outside the printing area. Then I turned off the printer and moved the nozzle to front left corner. I knew that my z-stop switch was install correctly because there was enough distance between the nozzle and the printing bed. Had I forced the nozzle to this position without a proper z-stop positon, I could have scratched the printing surface and the bed. Fortunately, this did not happen. I then proceeed to level the back right corner, the to right corner, and the back left corners.
 
-I originially used a business card to level the nozzle to the printing surface, but after a couple of prints, this was not working. I contacted a friend and he told me to use instead a non-folded sheet of paper to try to achieve a .1mm thickness. This works by putting the paper under the nozzle and bringing to a position where there's drag between the paper, nozzle and printing surface. After I leveled the bud using the paper, I was succesful in printing my first few prints. 
+I originially used a business card to level the nozzle to the printing surface, but after a couple of prints, this was not working. I contacted a friend and he told me to use instead a non-folded sheet of paper to try to achieve a .1mm thickness. This works by putting the paper under the nozzle and bringing the bed to a position where there's drag between the paper and the nozzle. You have to do this around all corners, making sure to go on an X pattern. Then you need to move the nozzle to the center of the bed and adjust all four corners "at the same time". After I leveled the bed using the paper, I was succesful in printing my first few prints. 
 
-Leveling took a long time for me, and every time I printed something it seemed that I needed to readjust the leveling. I searched online for a faster way to do the leveling and fount the following video:
+Proper leveling took a long time for me. It seem that everytime I printed something, I need to re-adjust the leveling. I searched online for a faster way to level the bed and found this video:
 
 https://www.youtube.com/watch?v=_EfWVUJjBdA
 
-The video also has a link to a Thingverse link for the gcode files the presenter mentions in the video:
+The video also has a link to a thingiverse.com to download the gcode files. The link is a follows:
 
 https://www.thingiverse.com/thing:3235018
 
-By using this gcode file, I have been able to set my bed leveling consistently and faster.
+By using leveling and test gcode files, I have been able to set my bed leveling consistently and faster.
 
 ## Printing temperature (PLA)
 
-I have printed PLA both at 210C nozzle temperature and 65C bed temperature and at 200C nozzle temperature and 60C bed temperature. I had good results with both. Lately, I have been keeping the latter setting as it is the one that comes with Cura by default.
+I have printed PLA both at 210C nozzle temperature and 65C bed temperature and at 200C nozzle temperature and 60C bed temperature. I had good results with both. I've learned that different PLAs require different temperatures. Recently I got PLA, and I had to raise the temperature to 225C. 
 
 | Setting | Area | Temperature |
 | --- | --- | --- |
@@ -40,7 +40,12 @@ I have printed PLA both at 210C nozzle temperature and 65C bed temperature and a
 |     | Bed | 60C
 | PLA setting 2 | Extruder | 210C
 |     | Bed | 65C
+| DIKALE PLA | Extruder | 225C
+|     | Bed | 60C
 
+
+
+> Note: bottom line, test the optimal temperature of the material. I think this is achieved when you raise the temperature, extrude material and it comes flows easily in a straight line. If the material curls or you see that the extruder motor skips or makes weird noises, the temperature may be too low or there may be a blockage in the extruder. If you have the temperature set too high, it will also be a problem. Once you get a good flow, reduce the temperature until as long as you still achieve good results (material flowing in a straight line and the extruder motor is able to handle the flow).
 
 ## My first and the benchy test
 
@@ -54,7 +59,7 @@ This is what my benchy looks like:
 
 ## Additional parts
 
-Once I overcame the leveling and nozzle distance issues and after several failed and then successfult prints, I then decided the print the following parts to enhace my printer:
+Once I overcame leveling, nozzle distance, and material extrussion issues and after several failed and then successfult prints, I then decided the print the following parts to enhace my printer:
 
 ### Fan cover
 
@@ -79,17 +84,19 @@ https://www.thingiverse.com/thing:2920060
 
 ## Slicing software
 
-I finally settle for using Cura.
-
+I finally settled for using Cura to do my slicing. I have also learned to modified the gcode and have the printer perform custom commands to for example change filament color.
 
 ## Design software
 
-I am still using tinkercad to do my design. I also have started looking a FreeCad.
+I am still using tinkercad to do my designs. I also have started looking a FreeCad.
 
 ## Printing duplicates
 
-Sometimes you may want to print several duplicates of your parts. Rather than printing one by one, I either import the STL file into tinkercad and created duplicates or import the same STL file into Cura several times. I like the second approach, as I can go into inmidiatly go into slicking, Additing the files via Tinkercad though, gives a lot of flexibility.
+Sometimes you may want to print several duplicates of your parts. Rather than printing one by one, import the STL into Cura and use the duplication command to create duplicates.
 
+## Multi-color printing
+
+It is possible to print multiple colors with one extruder. Cura 4.0 has a nice gcode routing that makes the process very easy. You go to Setting/GCode Setting and add a routing to change filamente at a given layer number.
 
 ## Other Issues
 
@@ -100,4 +107,8 @@ Sometimes you may want to print several duplicates of your parts. Rather than pr
 
 ### Stringing
 
-Stringing occurs when the nozzle moves from one location to another rapidly, particularly after making circle, leaving in its path a small amount of filament that looks like a string. This can be prevented using the Combing Mode in Travel setting in Cura.
+Stringing occurs when the nozzle moves from one location to another rapidly, particularly after making circle, leaving in its path a small amount of filament that looks like a string. This can be prevented using the Combing Mode in Travel the settings in Cura. Having the temperature two hot also affects stringing. Make sure to have the proper temperature.
+
+### Nozzle Clogging
+
+I recently upgraded the boden tube to  a Capricorn one. I did not close the gap between the tube and the nozzle, as a result a clog formed. I had to unisntall the nozzle and the boden tube holder, clean the clog, and then reinstall the whole thing again without leaving a gap. This worked great and now the printer is better than ever.
