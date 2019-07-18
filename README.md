@@ -8,9 +8,9 @@ I mostly followed this guide to build my printer:
 
 https://www.youtube.com/watch?v=me8Qrwh907Q
 
-I think the author makes very good recommendations to align printer. I did not change all the parts as he recommended. So far, my printer has been working correctly, but I do plan to add the recommended parts in the near future.
+I think the author makes very good recommendations to align printer. I did not change all the parts as he recommends in the video, but when with the stock parts. So far, my printer has been working correctly, but I do plan to add some of the recommended parts in the near future.
 
-## Leveling and distance from the nozzle to the bed.
+## Leveling, distance from the nozzle to the bed, and material extrusion
 
 > **Note:** Do not attempt to print until the bed is leveled and you have set the proper height between the nozzle and the printing surface. Otherwise, you could scratch and ruing the printing surface.
 
