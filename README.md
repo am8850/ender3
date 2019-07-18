@@ -16,15 +16,15 @@ I think the author makes very good recommendations to align printer. I did not c
 
 Proper bed leveling, distance from the nozzle to the bed (particularly the first layer), and proper material flow (by adjusting to the proper temperature) are probable the two most important aspects of 3D printing. 
 
-Once my printer was built, I had the printer Auto Home from the prepare setting in the LCD. This puts the nozzle outside the printing area. Then I turned off the printer and moved the nozzle to front left corner. I knew that my z-stop switch was install correctly because there was enough distance between the nozzle and the printing bed. Had I forced the nozzle to this position without a proper z-stop positon, I could have scratched the printing surface and the bed. Fortunately, this did not happen. I then proceeed to level the back right corner, the to right corner, and the back left corners.
+Once my printer was built, I had the printer Auto Home from the prepare setting in the LCD. This puts the nozzle outside the printing area. Then I turned off the printer and moved the nozzle to front left corner. I knew that my z-stop switch was installed correctly because there was enough distance between the nozzle and the printing bed. Had I forced the nozzle to this position without a proper z-stop positon, I could have scratched the printing surface and the bed. Fortunately, this did not happen.
 
-I originially used a business card to level the nozzle to the printing surface, but after a couple of prints, this was not working. I contacted a friend and he told me to use instead a non-folded sheet of paper to try to achieve a .1mm thickness. This works by putting the paper under the nozzle and bringing the bed to a position where there's drag between the paper and the nozzle. You have to do this around all corners, making sure to go on an X pattern. Then you need to move the nozzle to the center of the bed and adjust all four corners "at the same time". After I leveled the bed using the paper, I was succesful in printing my first few prints. 
+I originially used a business card to level the nozzle to the printing surface, but after a couple of prints, this was not working. I contacted a friend and he told me to use instead a non-folded sheet of paper to try to achieve a .1mm thickness. This works by putting the paper under the nozzle and bringing the bed to a position where there's drag between the paper and the nozzle. You have to do this around all four corners, making sure to go on an X pattern. Then you need to move the nozzle to the center of the bed and adjust all four corners "at the same time". After I leveled the bed using the paper, I was succesful in printing my first few prints. 
 
-Proper leveling took a long time for me. It seem that everytime I printed something, I need to re-adjust the leveling. I searched online for a faster way to level the bed and found this video:
+Proper leveling took a long time for me. It seemed that everytime I printed something, I need to re-adjust the leveling. I searched online for a faster way to level the bed and found this video:
 
 https://www.youtube.com/watch?v=_EfWVUJjBdA
 
-The video also has a link to a thingiverse.com to download the gcode files. The link is a follows:
+The video also has a link to the following thingiverse.com gcode:
 
 https://www.thingiverse.com/thing:3235018
 
@@ -32,7 +32,7 @@ By using leveling and test gcode files, I have been able to set my bed leveling 
 
 ## Printing temperature (PLA)
 
-I have printed PLA both at 210C nozzle temperature and 65C bed temperature and at 200C nozzle temperature and 60C bed temperature. I had good results with both. I've learned that different PLAs require different temperatures. Recently I got PLA, and I had to raise the temperature to 225C. 
+I have printed PLA both at 210C nozzle temperature and 65C bed temperature and at 200C nozzle temperature and 60C bed temperature. I had good results with both. I've learned that different PLAs require different temperatures. Recently I got new PLA, and I had to raise the temperature to 225C. 
 
 | Setting | Area | Temperature |
 | --- | --- | --- |
@@ -43,19 +43,7 @@ I have printed PLA both at 210C nozzle temperature and 65C bed temperature and a
 | DIKALE PLA | Extruder | 225C
 |     | Bed | 60C
 
-
-
 > Note: bottom line, test the optimal temperature of the material. I think this is achieved when you raise the temperature, extrude material and it comes flows easily in a straight line. If the material curls or you see that the extruder motor skips or makes weird noises, the temperature may be too low or there may be a blockage in the extruder. If you have the temperature set too high, it will also be a problem. Once you get a good flow, reduce the temperature until as long as you still achieve good results (material flowing in a straight line and the extruder motor is able to handle the flow).
-
-## My first and the benchy test
-
-My first successful print was a 20x20mm square:
-
-[Insert image]
-
-This is what my benchy looks like:
-
-[Insert image|
 
 ## Additional parts
 
@@ -88,15 +76,15 @@ I finally settled for using Cura to do my slicing. I have also learned to modifi
 
 ## Design software
 
-I am still using tinkercad to do my designs. I also have started looking a FreeCad.
+I am still using tinkercad design my parts. I also have started looking a FreeCad.
 
 ## Printing duplicates
 
-Sometimes you may want to print several duplicates of your parts. Rather than printing one by one, import the STL into Cura and use the duplication command to create duplicates.
+Sometimes you may want to print duplicates of your parts. Rather than printing one by one, import the STL into Cura and use the duplication command to create duplicates.
 
 ## Multi-color printing
 
-It is possible to print multiple colors with one extruder. Cura 4.0 has a nice gcode routing that makes the process very easy. You go to Setting/GCode Setting and add a routing to change filamente at a given layer number.
+It is possible to print multiple colors with one extruder. Cura 4.0 has a nice gcode routine that makes the process very easy. You go to Setting/GCode Setting and add a routing to change filamente at a given layer number. Once you start your print, just follow the on-screen prompts.
 
 ## Other Issues
 
