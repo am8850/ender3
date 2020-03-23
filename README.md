@@ -45,7 +45,7 @@ I have printed PLA both at 210C nozzle temperature and 65C bed temperature and a
 | DIKALE PLA | Extruder | 225C
 |     | Bed | 60C
 
-> Note: bottom line, test the optimal temperature of the material. I think this is achieved when you raise the temperature, extrude material and it comes flows easily in a straight line. If the material curls or you see that the extruder motor skips or makes weird noises, the temperature may be too low or there may be a blockage in the extruder. If you have the temperature set too high, it will also be a problem. Once you get a good flow, reduce the temperature until as long as you still achieve good results (material flowing in a straight line and the extruder motor is able to handle the flow).
+> Note: bottom line, test the optimal temperature of the material. I think this is achieved when you raise the temperature, extrude material and it comes flows easily in a straight line. If the material curls or you see that the extruder motor skips or makes weird noises, the temperature may be too low or there may be a blockage in the extruder. If you have the temperature set too high, it will also be a problem. You will get stringing. Once you get a good flow, reduce the temperature until as long as you still achieve good results (material flowing in a straight line and the extruder motor is able to handle the flow).
 
 ## Additional parts
 
@@ -78,7 +78,7 @@ I finally settled for using Cura to do my slicing. I have also learned to modifi
 
 ## Design software
 
-I am still using tinkercad design my parts. I also have started looking a FreeCad.
+I am still using tinkercad.com to design my parts. I also have started looking a FreeCad.
 
 ## Printing duplicates
 
@@ -92,8 +92,7 @@ It is possible to print multiple colors with one extruder. Cura 4.0 has a nice g
 
 ### Stuck items
 
-- Be patient. Let the bed cool down to room termpature, and remove the item(s) with the spula. You could also desigh your prints with a tiny edge corner to be able to have spatula catch better and faster.
-- Clean the printing surface after every print.
+- Be patient. Let the bed cool down to room termpature. Do not use a spatula or use the spatula correctly. I used to try pry the prints with the spatula, but this was damaging the printing surface. A better approach is to come from the side of the print, using something like a long dull knife and taping it with a small hammer against the sides. This will reduce surface tension between the print and the and the pring will come off much easier and without damaging the printing surface.
 
 ### Stringing
 
@@ -101,4 +100,4 @@ Stringing occurs when the nozzle moves from one location to another rapidly, par
 
 ### Nozzle Clogging
 
-I recently upgraded the boden tube to  a Capricorn one. I did not close the gap between the tube and the nozzle, as a result a clog formed. I had to unisntall the nozzle and the boden tube holder, clean the clog, and then reinstall the whole thing again without leaving a gap. This worked great and now the printer is better than ever.
+I recently upgraded the boden tube to a Capricorn one. I did not close the gap between the tube and the nozzle, as a result a clog formed. I had to unisntall the nozzle and the boden tube holder, clean the clog, and then reinstall the whole thing again without leaving a gap. This worked great and now the printer is better than ever.
