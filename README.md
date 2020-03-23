@@ -4,17 +4,19 @@ I recently bought an Ender 3 (not the pro). I wanted to share my experiences thu
 
 ## Build
 
-I mostly followed this guide to build my printer:
+I followed this guide to build my printer:
 
 https://www.youtube.com/watch?v=me8Qrwh907Q
 
-I think the author makes very good recommendations to align printer. I did not change all the parts as he recommends in the video, but when with the stock parts. So far, my printer has been working correctly, but I do plan to add some of the recommended parts in the near future.
+I think the author makes very good recommendations to align printer. I did not change all the parts as he recommends in the video, but went with the stock parts. So far, my printer has been working correctly, but I do plan to add some of the recommended parts in the near future.
 
 ## Leveling, distance from the nozzle to the bed, and material extrusion
 
-> **Note:** Do not attempt to print until the bed is leveled and you have set the proper height between the nozzle and the printing surface. Otherwise, you could scratch and ruing the printing surface.
+> **Note:** Do not attempt to print anything until the bed is leveled and you have set the proper height between the nozzle and the printing surface. Otherwise, you could scratch and ruin the printing surface.
 
-Proper bed leveling, distance from the nozzle to the bed (particularly the first layer), and proper material flow (by adjusting to the proper temperature) are probable the two most important aspects of 3D printing. 
+Proper bed leveling, distance from the nozzle to the bed (particularly the first layer), and proper material flow (by adjusting to the proper temperature) are the most important aspects of 3D printing. 
+
+### Bed Leveling
 
 Once my printer was built, I had the printer Auto Home from the prepare setting in the LCD. This puts the nozzle outside the printing area. Then I turned off the printer and moved the nozzle to front left corner. I knew that my z-stop switch was installed correctly because there was enough distance between the nozzle and the printing bed. Had I forced the nozzle to this position without a proper z-stop positon, I could have scratched the printing surface and the bed. Fortunately, this did not happen.
 
